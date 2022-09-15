@@ -1,6 +1,6 @@
 import cors from "cors";
 import express from "express";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client/";
 import { convertHourStringToMinutes } from "./utils/convertHourStringToMinutes";
 import { convertMinutesToHourString } from "./utils/convertMinutesToHourString";
 
